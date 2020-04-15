@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/user/CLionProjects/Ex2/Scheduler.cpp
+Scheduler.h
+C:/Users/user/CLionProjects/Ex2/Scheduler.h
+
+C:/Users/user/CLionProjects/Ex2/Scheduler.h
+stdio.h
+-
+signal.h
+-
+sys/time.h
+-
+list
+-
+
+C:/Users/user/CLionProjects/Ex2/Thread.cpp
+Thread.h
+C:/Users/user/CLionProjects/Ex2/Thread.h
+
+C:/Users/user/CLionProjects/Ex2/Thread.h
+stdio.h
+-
+setjmp.h
+-
+signal.h
+-
+unistd.h
+-
+sys/time.h
+-
+
+C:/Users/user/CLionProjects/Ex2/uthreads.cpp
+uthreads.h
+C:/Users/user/CLionProjects/Ex2/uthreads.h
+
+C:/Users/user/CLionProjects/Ex2/uthreads.h
+
