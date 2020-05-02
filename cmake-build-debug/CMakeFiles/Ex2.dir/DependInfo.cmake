@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/user/CLionProjects/Ex2/Scheduler.cpp" "C:/Users/user/CLionProjects/Ex2/cmake-build-debug/CMakeFiles/Ex2.dir/Scheduler.cpp.obj"
-  "C:/Users/user/CLionProjects/Ex2/Thread.cpp" "C:/Users/user/CLionProjects/Ex2/cmake-build-debug/CMakeFiles/Ex2.dir/Thread.cpp.obj"
-  "C:/Users/user/CLionProjects/Ex2/main.cpp" "C:/Users/user/CLionProjects/Ex2/cmake-build-debug/CMakeFiles/Ex2.dir/main.cpp.obj"
-  "C:/Users/user/CLionProjects/Ex2/uthreads.cpp" "C:/Users/user/CLionProjects/Ex2/cmake-build-debug/CMakeFiles/Ex2.dir/uthreads.cpp.obj"
+  "C:/Users/user/CLionProjects/OS_Ex2-/Scheduler.cpp" "C:/Users/user/CLionProjects/OS_Ex2-/cmake-build-debug/CMakeFiles/Ex2.dir/Scheduler.cpp.obj"
+  "C:/Users/user/CLionProjects/OS_Ex2-/Thread.cpp" "C:/Users/user/CLionProjects/OS_Ex2-/cmake-build-debug/CMakeFiles/Ex2.dir/Thread.cpp.obj"
+  "C:/Users/user/CLionProjects/OS_Ex2-/main.cpp" "C:/Users/user/CLionProjects/OS_Ex2-/cmake-build-debug/CMakeFiles/Ex2.dir/main.cpp.obj"
+  "C:/Users/user/CLionProjects/OS_Ex2-/uthreads.cpp" "C:/Users/user/CLionProjects/OS_Ex2-/cmake-build-debug/CMakeFiles/Ex2.dir/uthreads.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

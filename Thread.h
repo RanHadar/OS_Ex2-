@@ -18,11 +18,21 @@ class Thread {
 public:
     sigjmp_buf env;
     sigset_t mask;
-    Thread();
+    Thread(int threadID, void (*f)(void), int stackSize);
     ~Thread();
 
 
+    int getThreadID(){
+        return threadID;
+    }
 
+    int getQuantumCounter(){
+        return quantumCounter;
+    }
+
+    void incQuantumConter(){
+        quantumCounter++;
+    }
 
 
 private:
@@ -31,11 +41,8 @@ private:
     int quantumCounter;
     static address_t translate_address(address_t address);
 
-    void setup();
-
-
+    void setup(void (*f)(void), int stackSize);
 
 };
-
 
 #endif //EX2_THREAD_H

@@ -8,26 +8,34 @@
 
 #define MAX_THREADS 100
 
-
-
-
 class Scheduler {
 
 
 public:
 
     Scheduler();
+
     ~Scheduler();
 
+    void addNewThread(int threadID);
+
+    int quantumChange();
+
+    int getRunningTid() { return runningThreadID; }
+
+    int terminateThread(int theadID);
+
+    int blockThread(int threadID);
+
+    void resumeThread(int treadID);
 
 
 private:
 
-    int currentThreadID;
+    int runningThreadID;
     std::list<int> blockedThreadsList;
     std::list<int> readyThreadsList;
-
-
+    void popFrontReady();
 };
 
 

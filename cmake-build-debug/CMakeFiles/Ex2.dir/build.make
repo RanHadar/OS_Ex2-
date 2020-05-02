@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\user\CLionProjects\Ex2
+CMAKE_SOURCE_DIR = C:\Users\user\CLionProjects\OS_Ex2-
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\user\CLionProjects\Ex2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\user\CLionProjects\OS_Ex2-\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Ex2.dir/depend.make
@@ -58,55 +58,55 @@ include CMakeFiles/Ex2.dir/flags.make
 
 CMakeFiles/Ex2.dir/main.cpp.obj: CMakeFiles/Ex2.dir/flags.make
 CMakeFiles/Ex2.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\Ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ex2.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex2.dir\main.cpp.obj -c C:\Users\user\CLionProjects\Ex2\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\OS_Ex2-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Ex2.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex2.dir\main.cpp.obj -c C:\Users\user\CLionProjects\OS_Ex2-\main.cpp
 
 CMakeFiles/Ex2.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex2.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\Ex2\main.cpp > CMakeFiles\Ex2.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\OS_Ex2-\main.cpp > CMakeFiles\Ex2.dir\main.cpp.i
 
 CMakeFiles/Ex2.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex2.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\CLionProjects\Ex2\main.cpp -o CMakeFiles\Ex2.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\CLionProjects\OS_Ex2-\main.cpp -o CMakeFiles\Ex2.dir\main.cpp.s
 
 CMakeFiles/Ex2.dir/uthreads.cpp.obj: CMakeFiles/Ex2.dir/flags.make
 CMakeFiles/Ex2.dir/uthreads.cpp.obj: ../uthreads.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\Ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Ex2.dir/uthreads.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex2.dir\uthreads.cpp.obj -c C:\Users\user\CLionProjects\Ex2\uthreads.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\OS_Ex2-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Ex2.dir/uthreads.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex2.dir\uthreads.cpp.obj -c C:\Users\user\CLionProjects\OS_Ex2-\uthreads.cpp
 
 CMakeFiles/Ex2.dir/uthreads.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex2.dir/uthreads.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\Ex2\uthreads.cpp > CMakeFiles\Ex2.dir\uthreads.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\OS_Ex2-\uthreads.cpp > CMakeFiles\Ex2.dir\uthreads.cpp.i
 
 CMakeFiles/Ex2.dir/uthreads.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex2.dir/uthreads.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\CLionProjects\Ex2\uthreads.cpp -o CMakeFiles\Ex2.dir\uthreads.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\CLionProjects\OS_Ex2-\uthreads.cpp -o CMakeFiles\Ex2.dir\uthreads.cpp.s
 
 CMakeFiles/Ex2.dir/Scheduler.cpp.obj: CMakeFiles/Ex2.dir/flags.make
 CMakeFiles/Ex2.dir/Scheduler.cpp.obj: ../Scheduler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\Ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Ex2.dir/Scheduler.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex2.dir\Scheduler.cpp.obj -c C:\Users\user\CLionProjects\Ex2\Scheduler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\OS_Ex2-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Ex2.dir/Scheduler.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex2.dir\Scheduler.cpp.obj -c C:\Users\user\CLionProjects\OS_Ex2-\Scheduler.cpp
 
 CMakeFiles/Ex2.dir/Scheduler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex2.dir/Scheduler.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\Ex2\Scheduler.cpp > CMakeFiles\Ex2.dir\Scheduler.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\OS_Ex2-\Scheduler.cpp > CMakeFiles\Ex2.dir\Scheduler.cpp.i
 
 CMakeFiles/Ex2.dir/Scheduler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex2.dir/Scheduler.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\CLionProjects\Ex2\Scheduler.cpp -o CMakeFiles\Ex2.dir\Scheduler.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\CLionProjects\OS_Ex2-\Scheduler.cpp -o CMakeFiles\Ex2.dir\Scheduler.cpp.s
 
 CMakeFiles/Ex2.dir/Thread.cpp.obj: CMakeFiles/Ex2.dir/flags.make
 CMakeFiles/Ex2.dir/Thread.cpp.obj: ../Thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\Ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Ex2.dir/Thread.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex2.dir\Thread.cpp.obj -c C:\Users\user\CLionProjects\Ex2\Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\user\CLionProjects\OS_Ex2-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Ex2.dir/Thread.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Ex2.dir\Thread.cpp.obj -c C:\Users\user\CLionProjects\OS_Ex2-\Thread.cpp
 
 CMakeFiles/Ex2.dir/Thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Ex2.dir/Thread.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\Ex2\Thread.cpp > CMakeFiles\Ex2.dir\Thread.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\user\CLionProjects\OS_Ex2-\Thread.cpp > CMakeFiles\Ex2.dir\Thread.cpp.i
 
 CMakeFiles/Ex2.dir/Thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Ex2.dir/Thread.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\CLionProjects\Ex2\Thread.cpp -o CMakeFiles\Ex2.dir\Thread.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\user\CLionProjects\OS_Ex2-\Thread.cpp -o CMakeFiles\Ex2.dir\Thread.cpp.s
 
 # Object files for target Ex2
 Ex2_OBJECTS = \
@@ -126,7 +126,7 @@ Ex2.exe: CMakeFiles/Ex2.dir/build.make
 Ex2.exe: CMakeFiles/Ex2.dir/linklibs.rsp
 Ex2.exe: CMakeFiles/Ex2.dir/objects1.rsp
 Ex2.exe: CMakeFiles/Ex2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\CLionProjects\Ex2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Ex2.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\user\CLionProjects\OS_Ex2-\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Ex2.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Ex2.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,6 +139,6 @@ CMakeFiles/Ex2.dir/clean:
 .PHONY : CMakeFiles/Ex2.dir/clean
 
 CMakeFiles/Ex2.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\user\CLionProjects\Ex2 C:\Users\user\CLionProjects\Ex2 C:\Users\user\CLionProjects\Ex2\cmake-build-debug C:\Users\user\CLionProjects\Ex2\cmake-build-debug C:\Users\user\CLionProjects\Ex2\cmake-build-debug\CMakeFiles\Ex2.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\user\CLionProjects\OS_Ex2- C:\Users\user\CLionProjects\OS_Ex2- C:\Users\user\CLionProjects\OS_Ex2-\cmake-build-debug C:\Users\user\CLionProjects\OS_Ex2-\cmake-build-debug C:\Users\user\CLionProjects\OS_Ex2-\cmake-build-debug\CMakeFiles\Ex2.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Ex2.dir/depend
 
